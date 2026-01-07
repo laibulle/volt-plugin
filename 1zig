@@ -1,0 +1,8 @@
+no step named 'build'
+  access the help menu with 'zig build -h'
+no step named 'build'
+  access the help menu with 'zig build -h'
+error: the following build command failed with exit code 1:
+.zig-cache/o/f7505607e2971eed9e137097c2d19b69/build /opt/homebrew/Cellar/zig/0.15.2/bin/zig /opt/homebrew/Cellar/zig/0.15.2/lib/zig /Users/guillaume.bailleul/perso/volt-plugin .zig-cache /Users/guillaume.bailleul/.cache/zig --seed 0xefd33d76 -Z7bb633f944a2687d build
+error: the following build command failed with exit code 1:
+.zig-cache/o/f7505607e2971eed9e137097c2d19b69/build /opt/homebrew/Cellar/zig/0.15.2/bin/zig /opt/homebrew/Cellar/zig/0.15.2/lib/zig /Users/guillaume.bailleul/perso/volt-plugin .zig-cache /Users/guillaume.bailleul/.cache/zig --seed 0xefd33d76 -Z7bb633f944a2687d build
