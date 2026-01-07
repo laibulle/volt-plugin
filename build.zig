@@ -10,13 +10,11 @@ pub fn build(b: *std.Build) void {
         .root_source_file = b.path("src/plugin/plugin.zig"),
         .target = target,
         .optimize = optimize,
+        .link_libc = true,
     });
 
     // Add CLAP headers path
     plugin.addIncludePath(b.path("libs/clap/include"));
-
-    // Set the output extension to .clap
-    plugin.setOutputDir("zig-out/lib");
 
     // Build artifact
     b.installArtifact(plugin);
