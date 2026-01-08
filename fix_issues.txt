@@ -1,0 +1,14 @@
+Zig 0.15 Compatibility Fixes Needed:
+
+1. @fieldParentPtr(Type, "field", ptr) -> @fieldParentPtr(@TypeOf(ptr.*), "field", ptr) 
+   OR just use: @fieldParentPtr("field", ptr) and infer the type
+
+2. callconv(.C) -> callconv(.c)
+
+3. VoltageSource.setVoltage parameter name conflicts with method name - rename to 'value'
+
+4. In preamp.zig line 47: change 'var preamp' to 'const preamp'
+
+5. Missing CLAP_PLUGIN_FEATURE_GUITAR constant - remove or replace
+
+Let me apply these fixes manually...
